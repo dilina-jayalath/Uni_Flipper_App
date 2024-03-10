@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Uni_Flipper</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="submitBtn">Submit</string>
+
+    //Dummy_Strings
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    //UserDashBoard Strings
+    <string name="userDashBoardTopic">User Dashboard</string>
+    <string name="userName">Dilina Jayalath</string>
+    <string name="userPosition">Student</string>
+    <string name="userLocation">Malabe</string>
+    <string name="ManageAds">Manage Your ads</string>
+    <string name="DashBoardItem_01">PS Full Notes - 2022</string>
+    <string name="DashBoardItem_02">MAD PastPaper - 2023</string>
+    <string name="DashBoardItem_03">BAS Notes 203</string>
+    <string name="DashBoardItem_04">SCM - book</string>
+
+    //User_Profile Strings
+    <string name="profile_topic">Edit Profile</string>
+    <string name="Profile_UserName">Name</string>
+    <string name="profile_UserEmail">Email</string>
+    <string name="profile_Year">Education Year</string>
+    <string name="profile_Degree">Degree Program</string>
+
+    //Ads_add page Strings
+    <string name="ads_Topic">Ads</string>
+    <string name="Ads_ItemName">Item Name</string>
+    <string name="Ads_DocCategory">Document Category</string>
+    <string name="Ads_Price">Price</string>
+    <string name="Ads_Description">Description</string>
+    <string name="Ads_Photo">Photos</string>
+    <string name="getStart_Topic">Let’s Get You Started With Uni-Flipper</string>
+    <string name="getStart_Description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,</string>
+    <string name="getStart_Btn">Get Start</string>
+
+
+</resources>

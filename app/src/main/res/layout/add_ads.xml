@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                tools:ignore="MissingConstraints">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="226dp"
+                    android:background="@drawable/login_page_gradient">
+
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        android:layout_width="266dp"
+                        android:layout_height="167dp"
+                        android:layout_marginBottom="16dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView12"
+                        app:srcCompat="@drawable/ad_1" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="@string/ads_Topic"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Manage Your Ads"
+                        android:textColor="@color/accent_color"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+                        app:layout_constraintStart_toStartOf="@+id/imageView15"
+                        app:layout_constraintTop_toTopOf="@+id/imageView15" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="920dp"
+                android:background="@color/black"
+                android:backgroundTint="@color/black">
+
+                <TextView
+                    android:id="@+id/etDegree2"
+                    android:layout_width="358dp"
+                    android:layout_height="115dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/user_input"
+                    android:drawablePadding="12dp"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:paddingStart="12dp"
+                    android:shadowColor="@color/primary_color"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="@color/accent_color"
+                    app:layout_constraintStart_toStartOf="@+id/tvDegree2"
+                    app:layout_constraintTop_toBottomOf="@+id/tvDegree2" />
+
+                <TextView
+                    android:id="@+id/tvDegree2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/Ads_Photo"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toStartOf="@+id/etDegree"
+                    app:layout_constraintTop_toBottomOf="@+id/etDegree" />
+
+                <EditText
+                    android:id="@+id/etEmail"
+                    android:layout_width="352dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/user_input"
+                    android:drawablePadding="12dp"
+                    android:ems="10"
+                    android:hint="Enter Document Catogoryy"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:paddingStart="12dp"
+                    android:shadowColor="@color/primary_color"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="@color/accent_color"
+                    app:layout_constraintStart_toStartOf="@+id/tvEmail"
+                    app:layout_constraintTop_toBottomOf="@+id/tvEmail" />
+
+                <EditText
+                    android:id="@+id/etName"
+                    android:layout_width="352dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/user_input"
+                    android:drawablePadding="12dp"
+                    android:ems="10"
+                    android:hint="Enter Item Name"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:paddingStart="12dp"
+                    android:shadowColor="@color/primary_color"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="@color/accent_color"
+                    app:layout_constraintStart_toStartOf="@+id/tvName"
+                    app:layout_constraintTop_toBottomOf="@+id/tvName" />
+
+                <TextView
+                    android:id="@+id/tvYear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/Ads_Price"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toStartOf="@+id/etEmail"
+                    app:layout_constraintTop_toBottomOf="@+id/etEmail" />
+
+                <EditText
+                    android:id="@+id/etYear"
+                    android:layout_width="363dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/user_input"
+                    android:drawablePadding="12dp"
+                    android:ems="10"
+                    android:hint="Enter Price"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:paddingStart="12dp"
+                    android:textColorHint="@color/accent_color"
+                    app:layout_constraintStart_toStartOf="@+id/tvYear"
+                    app:layout_constraintTop_toBottomOf="@+id/tvYear" />
+
+                <TextView
+                    android:id="@+id/tvEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/Ads_DocCategory"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toStartOf="@+id/etName"
+                    app:layout_constraintTop_toBottomOf="@+id/etName" />
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="132dp"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="@string/Ads_ItemName"
+                    android:textColor="#FDF6F6"
+                    android:textColorLink="#EAEAEA"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.092"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/etDegree"
+                    android:layout_width="355dp"
+                    android:layout_height="91dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/user_input"
+                    android:drawablePadding="12dp"
+                    android:ems="10"
+                    android:hint="Type Here..."
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:paddingStart="12dp"
+                    android:shadowColor="@color/primary_color"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="@color/accent_color"
+                    app:layout_constraintStart_toStartOf="@+id/tvDegree"
+                    app:layout_constraintTop_toBottomOf="@+id/tvDegree" />
+
+                <TextView
+                    android:id="@+id/tvDegree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/Ads_Description"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toStartOf="@+id/etYear"
+                    app:layout_constraintTop_toBottomOf="@+id/etYear" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:backgroundTint="@color/btncolor"
+                    android:text="Submit"
+                    app:layout_constraintEnd_toEndOf="@+id/etDegree2"
+                    app:layout_constraintStart_toStartOf="@+id/etDegree2"
+                    app:layout_constraintTop_toBottomOf="@+id/etDegree2" />
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="91dp"
+                    android:layout_height="57dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/etDegree2"
+                    app:layout_constraintEnd_toEndOf="@+id/etDegree2"
+                    app:layout_constraintHorizontal_bias="0.489"
+                    app:layout_constraintStart_toStartOf="@+id/etDegree2"
+                    app:layout_constraintTop_toTopOf="@+id/etDegree2"
+                    app:layout_constraintVertical_bias="0.289"
+                    app:srcCompat="@drawable/fill_1" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Click To Upload"
+                    app:layout_constraintBottom_toBottomOf="@+id/etDegree2"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView16"
+                    app:layout_constraintHorizontal_bias="0.571"
+                    app:layout_constraintStart_toStartOf="@+id/imageView16"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
